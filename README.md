@@ -34,14 +34,13 @@ This project uses Node.js and Rust. Ensure you have both installed before procee
    npm run tauri dev
    ```
 
-### Building Installers
+### Installation
 
-To compile standalone executables for your platform (e.g., `.deb`, `.rpm`, or `.exe`):
+Pre-built Linux installers are readily available! Navigate to the `installers/` directory in this repository to find:
+- A `.deb` package for Debian/Ubuntu based distributions.
+- A `.rpm` package for Fedora/RHEL based distributions.
 
-```bash
-npm run tauri build
-```
-The output bundles will be placed in the `src-tauri/target/release/bundle/` directory.
+Simply download and double-click the installer to start using Structra.
 
 ## Contributing
 
